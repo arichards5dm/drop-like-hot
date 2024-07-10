@@ -62,7 +62,7 @@ function check(e) {
 	whi2 = document.getElementById('whip-cream').y;
 	sun1 = document.getElementById('sundae').x;
 	sun2 = document.getElementById('sundae').y;
-
+	console.log(sun1, sun2, che1, che2);
 	if (che1>sun1 && che1<(sun1+666) && che2>sun2 && che2<(sun2+666) && cho1>sun1 && cho1<(sun1+666) && cho2>sun2 && cho2<(sun2+666) &&
 	car1>sun1 && car1<(sun1+666) && car2>sun2 && car2<(sun2+666) && spr1>sun1 && spr1<(sun1+666) && spr2>sun2 && spr2<(sun2+666) &&
 	pea1>sun1 && pea1<(sun1+666) && pea2>sun2 && pea2<(sun2+666) && whi1>sun1 && whi1<(sun1+666) && whi2>sun2 && whi2<(sun2+666)) {
